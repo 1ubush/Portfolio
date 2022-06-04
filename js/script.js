@@ -1,6 +1,12 @@
-window.onload = function(){
+window.onload = function() {
    let x = document.querySelector("#myTopnav");
    document.querySelector("#menu").onclick = function(){
         x.classList.toggle('responsive');
+   }
+}
+button.onclick = function() {
+   var color = 'red';
+   function charge('#click') {
+      identifier.style.background = color
    }
 }
