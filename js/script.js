@@ -4,9 +4,6 @@ window.onload = function() {
         x.classList.toggle('responsive');
    }
 }
-button.onclick = function() {
-   var color = 'red';
-   function charge('#click') {
-      identifier.style.background = color
-   }
+document.querySelector('button').onclick = function() {
+   this.style.background = "brown";
 }
